@@ -58,11 +58,18 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="dadosDaContaBancariajPanel1" max="32767" attributes="0"/>
-                                  <Component id="dadosDoBoletojPanel" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="dadosDoBoletojPanel" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="ok" min="-2" pref="88" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cancelar" min="-2" pref="88" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -77,6 +84,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                               <Component id="dadosDaContaBancariajPanel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="dadosDoBoletojPanel" min="-2" max="-2" attributes="0"/>
@@ -87,7 +95,12 @@
                               <Component id="DadosDoCedentejPanel" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ok" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -332,9 +345,8 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <Component id="numeroDoDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                                   <Component id="numeroDoDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="nossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
@@ -910,19 +922,24 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="numeroDaContaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="numeroDaContaDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
                                   <Component id="bancoDaContaBancariaJLabel" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="bancoDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="tiposDeCarteiraDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="tipoDeCarteiraDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tiposDeCarteiraDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="numeroDaContaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="43" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="numeroDaContaDaContaBancariajTextField" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          <Component id="digitoContajTextField" min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="tipoDeCarteiraDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
@@ -940,6 +957,7 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="numeroDaContaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="numeroDaContaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="digitoContajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -998,16 +1016,17 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="nomeAgenciaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="nomeAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
+                                  <Component id="nomeAgenciaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numeroAgenciaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="numeroAgenciaDaContaBancariajTextField" min="-2" pref="102" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="digitoAgenciajTextField" min="-2" pref="37" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="numeroAgenciaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="numeroAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="nomeAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1023,6 +1042,7 @@
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="numeroAgenciaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="numeroAgenciaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="digitoAgenciajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1049,8 +1069,12 @@
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
+                    <Component class="javax.swing.JTextField" name="digitoAgenciajTextField">
+                    </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JTextField" name="digitoContajTextField">
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="dadosDoBoletojPanel">
@@ -1290,6 +1314,22 @@
                 </Component>
               </SubComponents>
             </Container>
+            <Component class="javax.swing.JButton" name="ok">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="OK"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="cancelar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelarActionPerformed"/>
+              </Events>
+            </Component>
           </SubComponents>
         </Container>
       </SubComponents>

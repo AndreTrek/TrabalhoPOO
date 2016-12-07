@@ -3,7 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package controle;
+
+import static controle.MeuPrimeiroBoleto.setTitulo;
+import java.math.BigDecimal;
+import java.util.Date;
+import static javafx.application.Platform.exit;
+import org.jrimum.bopepo.BancosSuportados;
+import org.jrimum.bopepo.Boleto;
+import org.jrimum.bopepo.view.BoletoViewer;
+import org.jrimum.domkee.comum.pessoa.endereco.CEP;
+import org.jrimum.domkee.comum.pessoa.endereco.Endereco;
+import org.jrimum.domkee.comum.pessoa.endereco.UnidadeFederativa;
+import org.jrimum.domkee.financeiro.banco.febraban.Agencia;
+import org.jrimum.domkee.financeiro.banco.febraban.Carteira;
+import org.jrimum.domkee.financeiro.banco.febraban.Cedente;
+import org.jrimum.domkee.financeiro.banco.febraban.ContaBancaria;
+import org.jrimum.domkee.financeiro.banco.febraban.NumeroDaConta;
+import org.jrimum.domkee.financeiro.banco.febraban.Sacado;
+import org.jrimum.domkee.financeiro.banco.febraban.SacadorAvalista;
+import org.jrimum.domkee.financeiro.banco.febraban.TipoDeTitulo;
+import org.jrimum.domkee.financeiro.banco.febraban.Titulo;
+import org.jrimum.domkee.financeiro.banco.febraban.Titulo.EnumAceite;
 
 /**
  *
@@ -109,6 +130,8 @@ public class Interface extends javax.swing.JFrame {
         nomeAgenciaDaContaBancariajTextField = new javax.swing.JTextField();
         numeroAgenciaDaContaBancariajLabel = new javax.swing.JLabel();
         numeroAgenciaDaContaBancariajTextField = new javax.swing.JTextField();
+        digitoAgenciajTextField = new javax.swing.JTextField();
+        digitoContajTextField = new javax.swing.JTextField();
         dadosDoBoletojPanel = new javax.swing.JPanel();
         localDePagamentoDoBoletojLabel = new javax.swing.JLabel();
         localDePagamentoDoBoletojTextField = new javax.swing.JTextField();
@@ -130,6 +153,8 @@ public class Interface extends javax.swing.JFrame {
         instrucao7DoBoletoTextField = new javax.swing.JTextField();
         instrucao8DoBoletojLabel = new javax.swing.JLabel();
         instrucao8DoBoletoTextField = new javax.swing.JTextField();
+        ok = new javax.swing.JButton();
+        cancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -326,9 +351,8 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(numeroDoDocumentoDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(numeroDoDocumentoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(numeroDoDocumentoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(nossoNumeroDoTitulojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -633,14 +657,15 @@ public class Interface extends javax.swing.JFrame {
             .addGroup(agenciaDaContaBancariaJPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, agenciaDaContaBancariaJPanelLayout.createSequentialGroup()
-                        .addComponent(nomeAgenciaDaContaBancariajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(nomeAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeAgenciaDaContaBancariajLabel)
+                    .addComponent(numeroAgenciaDaContaBancariajLabel))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(agenciaDaContaBancariaJPanelLayout.createSequentialGroup()
-                        .addComponent(numeroAgenciaDaContaBancariajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
         agenciaDaContaBancariaJPanelLayout.setVerticalGroup(
             agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -651,7 +676,8 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(numeroAgenciaDaContaBancariajLabel)
-                    .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         javax.swing.GroupLayout dadosDaContaBancariajPanel1Layout = new javax.swing.GroupLayout(dadosDaContaBancariajPanel1);
@@ -662,17 +688,20 @@ public class Interface extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(dadosDaContaBancariajPanel1Layout.createSequentialGroup()
-                        .addComponent(numeroDaContaDaContaBancariajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(dadosDaContaBancariajPanel1Layout.createSequentialGroup()
                         .addComponent(bancoDaContaBancariaJLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(bancoDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(dadosDaContaBancariajPanel1Layout.createSequentialGroup()
-                        .addComponent(tiposDeCarteiraDaContaBancariajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(tipoDeCarteiraDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dadosDaContaBancariajPanel1Layout.createSequentialGroup()
+                        .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tiposDeCarteiraDaContaBancariajLabel)
+                            .addComponent(numeroDaContaDaContaBancariajLabel))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                        .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(dadosDaContaBancariajPanel1Layout.createSequentialGroup()
+                                .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(3, 3, 3)
+                                .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(tipoDeCarteiraDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))))
             .addComponent(agenciaDaContaBancariaJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         dadosDaContaBancariajPanel1Layout.setVerticalGroup(
@@ -684,7 +713,8 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(numeroDaContaDaContaBancariajLabel)
-                    .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tiposDeCarteiraDaContaBancariajLabel)
@@ -833,6 +863,20 @@ public class Interface extends javax.swing.JFrame {
                         .addGap(3, 3, 3))))
         );
 
+        ok.setText("OK");
+        ok.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                okActionPerformed(evt);
+            }
+        });
+
+        cancelar.setText("Cancelar");
+        cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cancelarActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout PanelParaScrolljPanelLayout = new javax.swing.GroupLayout(PanelParaScrolljPanel);
         PanelParaScrolljPanel.setLayout(PanelParaScrolljPanelLayout);
         PanelParaScrolljPanelLayout.setHorizontalGroup(
@@ -851,8 +895,14 @@ public class Interface extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(dadosDaContaBancariajPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                            .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addGap(0, 17, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelParaScrolljPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(ok, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(cancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33))
         );
         PanelParaScrolljPanelLayout.setVerticalGroup(
             PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -864,6 +914,7 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
+                        .addGap(35, 35, 35)
                         .addComponent(dadosDaContaBancariajPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -871,7 +922,11 @@ public class Interface extends javax.swing.JFrame {
                         .addComponent(dadosDoTitulojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(DadosDoCedentejPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ok)
+                    .addComponent(cancelar))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         RolagemjScrollPane.setViewportView(PanelParaScrolljPanel);
@@ -889,6 +944,72 @@ public class Interface extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelarActionPerformed
+      System.exit(0);// TODO add your handling code here:
+    }//GEN-LAST:event_cancelarActionPerformed
+
+    private void okActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okActionPerformed
+      /*
+                 * INFORMANDO DADOS SOBRE O SACADO.
+         */
+        Sacado sacado = new Sacado(nomeDoSacadojTextField.getText(), CPFDoSacadojTextField.getText());
+
+        // Informando o endereço do sacado.
+        Endereco enderecoSac = new Endereco();
+        enderecoSac.setUF(UnidadeFederativa.valueOf(UFDoSacadojTextField.getText()));
+        enderecoSac.setLocalidade(localidadeDoSacadojTextField.getText());
+        enderecoSac.setCep(new CEP(CEPDoSacadojTextField.getText()));
+        enderecoSac.setBairro(bairroDoSacadojTextField.getText());
+        enderecoSac.setLogradouro(logradouroDoSacadojTextField.getText());
+        enderecoSac.setNumero(numeroDoSacadojTextField.getText());
+        sacado.addEndereco(enderecoSac);
+
+        /*
+                 * INFORMANDO DADOS SOBRE O SACADOR AVALISTA.
+         */
+        SacadorAvalista sacadorAvalista = new SacadorAvalista(nomeDoSacadoAvalistajTextField.getText(), CPFDoSacadoAvalistajTextField.getText());
+
+        // Informando o endereço do sacador avalista.
+        Endereco enderecoSacAval = new Endereco();
+        enderecoSacAval.setUF(UnidadeFederativa.valueOf(UFDoSacadoAvalistajTextField.getText()));
+        enderecoSacAval.setLocalidade(localidadeDoSacadoAvalistajTextField.getText());
+        enderecoSacAval.setCep(new CEP(CEPDoSacadoAvalistajTextField.getText()));
+        enderecoSacAval.setBairro(bairroDoSacadoAvalistajTextField.getText());
+        enderecoSacAval.setLogradouro(logradouroDoSacadoAvalistajTextField.getText());
+        enderecoSacAval.setNumero(numeroDoSacadoAvalistajTextField.getText());
+        sacadorAvalista.addEndereco(enderecoSacAval);
+
+        /*
+                 * INFORMANDO OS DADOS SOBRE O TÍTULO.
+         */
+        // Informando dados sobre a conta bancária do título.
+        ContaBancaria contaBancaria = new ContaBancaria(BancosSuportados.BANCO_DO_BRASIL.create());
+        contaBancaria.setNumeroDaConta(new NumeroDaConta(Integer.parseInt(numeroDaContaDaContaBancariajTextField.getText()), digitoContajTextField.getText()));
+        contaBancaria.setCarteira(new Carteira(Integer.parseInt(tipoDeCarteiraDaContaBancariajTextField.getText())));
+        contaBancaria.setAgencia(new Agencia(Integer.parseInt(numeroAgenciaDaContaBancariajTextField.getText()), digitoContajTextField.getText()));
+        
+        Cedente cedente = new Cedente(nomeDaEmpresajTextField.getText(), CNPJjTextField.getText());
+
+        Titulo titulo = new Titulo(contaBancaria, sacado, cedente, sacadorAvalista);
+        titulo.setNumeroDoDocumento(numeroDoDocumentoDoTitulojTextField.getText());
+        titulo.setNossoNumero(nossoNumeroDoTitulojTextField.getText());
+        titulo.setDigitoDoNossoNumero(digitoNossoNumeroDoTitulojTextField.getText());
+        titulo.setValor(BigDecimal.valueOf(Double.parseDouble(valorDoTitulojTextField.getText())));
+        titulo.setDataDoDocumento(new Date());
+        titulo.setDataDoVencimento(new Date());
+        titulo.setTipoDeDocumento(TipoDeTitulo.DM_DUPLICATA_MERCANTIL);
+        titulo.setAceite(EnumAceite.valueOf(aceiteDoTitulojTextField.getText()));
+        titulo.setDesconto(new BigDecimal(Double.parseDouble(descontoDoTitulojTextField.getText())));
+        titulo.setDeducao(new BigDecimal(Double.parseDouble(deducaoDoTitulojTextField.getText())));
+        titulo.setMora(new BigDecimal(Double.parseDouble(moraDoTitulojTextField.getText())));
+        titulo.setAcrecimo(new BigDecimal(Double.parseDouble(acrescimoDoTitulojTextField.getText())));
+        titulo.setValorCobrado(new BigDecimal(Double.parseDouble(valorCobredoDoTitulojTextField.getText())));
+        
+        MeuPrimeiroBoleto.setTitulo(titulo);
+        MeuPrimeiroBoleto.setFlag(true);
+        
+    }//GEN-LAST:event_okActionPerformed
 
     /**
      * @param args the command line arguments
@@ -956,6 +1077,7 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JTextField bairroDoSacadojTextField;
     private javax.swing.JLabel bancoDaContaBancariaJLabel;
     private javax.swing.JTextField bancoDaContaBancariajTextField;
+    private javax.swing.JButton cancelar;
     private javax.swing.JPanel dadosDaContaBancariajPanel1;
     private javax.swing.JPanel dadosDoBoletojPanel;
     private javax.swing.JPanel dadosDoSacadoAvalistajPanel;
@@ -969,6 +1091,8 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JTextField deducaoDoTitulojTextField;
     private javax.swing.JLabel descontoDoTitulojLabel;
     private javax.swing.JTextField descontoDoTitulojTextField;
+    private javax.swing.JTextField digitoAgenciajTextField;
+    private javax.swing.JTextField digitoContajTextField;
     private javax.swing.JLabel digitoNossoNumeroDoTitulojLabel;
     private javax.swing.JTextField digitoNossoNumeroDoTitulojTextField;
     private javax.swing.JPanel enderecoDoSacadoAvalistaJPanel;
@@ -1022,6 +1146,7 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JTextField numeroDoSacadoAvalistajTextField;
     private javax.swing.JLabel numeroDoSacadojLabel;
     private javax.swing.JTextField numeroDoSacadojTextField;
+    private javax.swing.JButton ok;
     private javax.swing.JTextField tipoDeCarteiraDaContaBancariajTextField;
     private javax.swing.JLabel tipoDeDocumentoDoTitulojLabel;
     private javax.swing.JTextField tipoDeDocumentoDoTitulojTextField;
@@ -1031,4 +1156,5 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JLabel valorDoTitulojLabel;
     private javax.swing.JTextField valorDoTitulojTextField;
     // End of variables declaration//GEN-END:variables
+
 }
