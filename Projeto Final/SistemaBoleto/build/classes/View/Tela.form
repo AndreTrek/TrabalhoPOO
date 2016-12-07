@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="RolagemjScrollPane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="RolagemjScrollPane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="RolagemjScrollPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="PanelParaScrolljPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="dadosDoSacadojPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="dadosDoSacadoAvalistajPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="dadosDoTitulojPanel" max="32767" attributes="0"/>
+                                  <Component id="DadosDoCedentejPanel" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="dadosDaContaBancariajPanel1" max="32767" attributes="0"/>
+                                  <Component id="dadosDoBoletojPanel" alignment="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="dadosDoSacadojPanel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="dadosDoSacadoAvalistajPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="dadosDaContaBancariajPanel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="dadosDoBoletojPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="dadosDoTitulojPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="DadosDoCedentejPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="dadosDoSacadojPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do Sacado"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="nomeDoSacadojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CPFDoSacadojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="CPFDoSacadojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="nomeDoSacadojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="enderecoDoSacadojPanel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nomeDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nomeDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CPFDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CPFDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="enderecoDoSacadojPanel" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="nomeDoSacadojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="nomeDoSacadojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o nome do Sacado"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CPFDoSacadojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CPF"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="CPFDoSacadojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o CPF do Sacado"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="enderecoDoSacadojPanel">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Endere&#xe7;o"/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="UFDoSacadojLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="UFDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="LocalidadeDoSacadojLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="localidadeDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="CEPDoSacadojLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="CEPDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bairroDoSacadojLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="bairroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="72" max="32767" attributes="0"/>
+                                      <Component id="logradouroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="numeroDoSacadojLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="numeroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="UFDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UFDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LocalidadeDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="localidadeDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="CEPDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CEPDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bairroDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bairroDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="logradouroDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="numeroDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numeroDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="UFDoSacadojLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="UF"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="UFDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite o UF do Sacado"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="LocalidadeDoSacadojLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Localidade"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="localidadeDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite a Localidade do Sacado"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="CEPDoSacadojLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CEP"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CEPDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite o CEP do Sacado"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bairroDoSacadojLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bairro"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bairroDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite o Bairro do Sacado"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Logradouro"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="logradouroDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite o Logradouro do Sacado"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="numeroDoSacadojLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Numero"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="numeroDoSacadojTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite o N&#xfa;mero do Sacado"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="dadosDoTitulojPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do T&#xed;tulo"/>
+                  </Border>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="numeroDoDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="numeroDoDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="nossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="nossoNumeroDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="digitoNossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="digitoNossoNumeroDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="valorDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="valorDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="dataDoDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="dataDoDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="dataDeVencimentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="dataDeVencimentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tipoDeDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="tipoDeDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="aceiteDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="aceiteDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="descontoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="descontoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="deducaoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="deducaoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="moraDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="moraDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="acrescimoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="acrescimoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="valorCobradoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="valorCobredoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="numeroDoDocumentoDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numeroDoDocumentoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nossoNumeroDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nossoNumeroDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="digitoNossoNumeroDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="digitoNossoNumeroDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="valorDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="valorDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="dataDoDocumentoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="dataDoDocumentoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="dataDeVencimentoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="dataDeVencimentoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tipoDeDocumentoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="tipoDeDocumentoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="aceiteDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="aceiteDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="descontoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="descontoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="deducaoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="deducaoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="moraDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="moraDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="acrescimoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="acrescimoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="valorCobradoDoTitulojLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="valorCobredoDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="numeroDoDocumentoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="N&#xfa;mero do Documento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="numeroDoDocumentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o N&#xfa;mero do Documento Do Titulo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="nossoNumeroDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nosso N&#xfa;mero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="nossoNumeroDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o Nosso N&#xfa;mero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="digitoNossoNumeroDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Digito do Nosso Numero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="digitoNossoNumeroDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o Titulo do Nosso Numero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="valorDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valor"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="valorDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dataDoDocumentoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data do Documento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="dataDoDocumentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dataDeVencimentoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data de Vencimento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="dataDeVencimentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="tipoDeDocumentoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo de Documento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="tipoDeDocumentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="aceiteDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Aceite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="aceiteDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="descontoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Desconto"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="descontoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="deducaoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Dedu&#xe7;&#xe3;o"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="deducaoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="moraDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mora"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="moraDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="acrescimoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Acr&#xe9;scimo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="acrescimoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="valorCobradoDoTitulojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valor Cobrado"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="valorCobredoDoTitulojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="dadosDoSacadoAvalistajPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do Sacado Avalista"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="nomeDoSacadoAvalistajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CPFDoSacadoAvalistajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="nomeDoSacadoAvalistajTextField" min="-2" pref="162" max="-2" attributes="0"/>
+                              <Component id="CPFDoSacadoAvalistajTextField" min="-2" pref="159" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="enderecoDoSacadoAvalistaJPanel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nomeDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nomeDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CPFDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CPFDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="enderecoDoSacadoAvalistaJPanel" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="nomeDoSacadoAvalistajLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="nomeDoSacadoAvalistajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CPFDoSacadoAvalistajLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CPF"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="CPFDoSacadoAvalistajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="enderecoDoSacadoAvalistaJPanel">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Endere&#xe7;o"/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="UFDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="UFDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="localidadeDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="localidadeDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="CEPDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="CEPDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bairroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="bairroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="logradouroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Component id="logradouroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="numeroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="numeroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="UFDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UFDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="localidadeDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="localidadeDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="CEPDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CEPDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bairroDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bairroDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="logradouroDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="logradouroDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="numeroDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numeroDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="UFDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="UF"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="UFDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="localidadeDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Localidade"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="localidadeDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="CEPDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CEP"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CEPDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bairroDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bairro"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bairroDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="logradouroDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Logradouro"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="logradouroDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="numeroDoSacadoAvalistajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Numero"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="numeroDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="DadosDoCedentejPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do Cedente"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CNPJjLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="CNPJjTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="nomeDaEmpresajLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="nomeDaEmpresajTextField" min="-2" pref="152" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nomeDaEmpresajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nomeDaEmpresajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CNPJjLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CNPJjTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="nomeDaEmpresajLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome da Empresa"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="nomeDaEmpresajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CNPJjLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CNPJ"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="CNPJjTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="dadosDaContaBancariajPanel1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados da Conta Banc&#xe1;ria"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="numeroDaContaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="numeroDaContaDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="bancoDaContaBancariaJLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="bancoDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tiposDeCarteiraDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="tipoDeCarteiraDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="agenciaDaContaBancariaJPanel" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="bancoDaContaBancariaJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="bancoDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="numeroDaContaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numeroDaContaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tiposDeCarteiraDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tipoDeCarteiraDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="agenciaDaContaBancariaJPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="bancoDaContaBancariaJLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Banco"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="bancoDaContaBancariajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="numeroDaContaDaContaBancariajLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numero da Conta"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="numeroDaContaDaContaBancariajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="tiposDeCarteiraDaContaBancariajLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo de Cateira"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="tipoDeCarteiraDaContaBancariajTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="agenciaDaContaBancariaJPanel">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Agencia"/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="nomeAgenciaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nomeAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="numeroAgenciaDaContaBancariajLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="numeroAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nomeAgenciaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nomeAgenciaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="numeroAgenciaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numeroAgenciaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="nomeAgenciaDaContaBancariajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nome"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nomeAgenciaDaContaBancariajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="numeroAgenciaDaContaBancariajLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="N&#xfa;mero"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="numeroAgenciaDaContaBancariajTextField">
+                      <Properties>
+                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="dadosDoBoletojPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do Boleto"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="instrucao1DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao1DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="localDePagamentoDoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="localDePagamentoDoBoletojTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="instrucaoAoSacadoDoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="instrucaoAoSacadoDoBoletojTextField" min="-2" pref="122" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="instrucao2DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao2DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="instrucao3DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao3DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="instrucao4DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao4DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="instrucao5DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao5DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="instrucao6DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao6DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="instrucao7DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao7DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="instrucao8DoBoletojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="instrucao8DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="localDePagamentoDoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="localDePagamentoDoBoletojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucaoAoSacadoDoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucaoAoSacadoDoBoletojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao1DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao1DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao2DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao2DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao3DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao3DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao4DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao4DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao5DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao5DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao6DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao6DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="instrucao7DoBoletojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="instrucao7DoBoletoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="instrucao8DoBoletoTextField" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="instrucao8DoBoletojLabel" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="localDePagamentoDoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Local de Pagamento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="localDePagamentoDoBoletojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucaoAoSacadoDoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o ao Sacado"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucaoAoSacadoDoBoletojTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao1DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao1DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao2DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao2DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao3DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao3DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao4DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao4DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao5DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 5"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao5DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao6DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 6"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao6DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao7DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 7"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao7DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="instrucao8DoBoletojLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Instru&#xe7;&#xe3;o 8"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="instrucao8DoBoletoTextField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
