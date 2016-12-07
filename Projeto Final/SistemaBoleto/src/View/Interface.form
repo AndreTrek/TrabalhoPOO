@@ -1195,7 +1195,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="localDePagamentoDoBoletojTextField">
                   <Properties>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Digite o Local de Pagamento"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="instrucaoAoSacadoDoBoletojLabel">
