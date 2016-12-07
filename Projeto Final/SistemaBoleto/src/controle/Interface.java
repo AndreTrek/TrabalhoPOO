@@ -162,36 +162,44 @@ public class Interface extends javax.swing.JFrame {
 
         nomeDoSacadojLabel.setText("Nome");
 
+        nomeDoSacadojTextField.setText("Andre");
         nomeDoSacadojTextField.setToolTipText("Digite o nome do Sacado");
 
         CPFDoSacadojLabel.setText("CPF");
 
+        CPFDoSacadojTextField.setText("222.222.222-22");
         CPFDoSacadojTextField.setToolTipText("Digite o CPF do Sacado");
 
         enderecoDoSacadojPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Endereço"));
 
         UFDoSacadojLabel.setText("UF");
 
+        UFDoSacadojTextField.setText("DF");
         UFDoSacadojTextField.setToolTipText("Digite o UF do Sacado");
 
         LocalidadeDoSacadojLabel.setText("Localidade");
 
+        localidadeDoSacadojTextField.setText("Algo");
         localidadeDoSacadojTextField.setToolTipText("Digite a Localidade do Sacado");
 
         CEPDoSacadojLabel.setText("CEP");
 
+        CEPDoSacadojTextField.setText("59064-120");
         CEPDoSacadojTextField.setToolTipText("Digite o CEP do Sacado");
 
         bairroDoSacadojLabel.setText("Bairro");
 
+        bairroDoSacadojTextField.setText("Lugar");
         bairroDoSacadojTextField.setToolTipText("Digite o Bairro do Sacado");
 
         jLabel7.setText("Logradouro");
 
+        logradouroDoSacadojTextField.setText("Lugar2");
         logradouroDoSacadojTextField.setToolTipText("Digite o Logradouro do Sacado");
 
         numeroDoSacadojLabel.setText("Numero");
 
+        numeroDoSacadojTextField.setText("123");
         numeroDoSacadojTextField.setToolTipText("Digite o Número do Sacado");
 
         javax.swing.GroupLayout enderecoDoSacadojPanelLayout = new javax.swing.GroupLayout(enderecoDoSacadojPanel);
@@ -292,54 +300,67 @@ public class Interface extends javax.swing.JFrame {
 
         numeroDoDocumentoDoTitulojLabel.setText("Número do Documento");
 
+        numeroDoDocumentoDoTitulojTextField.setText("123456");
         numeroDoDocumentoDoTitulojTextField.setToolTipText("Digite o Número do Documento Do Titulo");
 
         nossoNumeroDoTitulojLabel.setText("Nosso Número");
 
+        nossoNumeroDoTitulojTextField.setText("99345678912");
         nossoNumeroDoTitulojTextField.setToolTipText("Digite o Nosso Número");
 
         digitoNossoNumeroDoTitulojLabel.setText("Digito do Nosso Numero");
 
+        digitoNossoNumeroDoTitulojTextField.setText("5");
         digitoNossoNumeroDoTitulojTextField.setToolTipText("Digite o Titulo do Nosso Numero");
 
         valorDoTitulojLabel.setText("Valor");
 
+        valorDoTitulojTextField.setText("300");
         valorDoTitulojTextField.setToolTipText("");
 
         dataDoDocumentoDoTitulojLabel.setText("Data do Documento");
 
+        dataDoDocumentoDoTitulojTextField.setText("12/10/1995");
         dataDoDocumentoDoTitulojTextField.setToolTipText("");
 
         dataDeVencimentoDoTitulojLabel.setText("Data de Vencimento");
 
+        dataDeVencimentoDoTitulojTextField.setText("20/10/1995");
         dataDeVencimentoDoTitulojTextField.setToolTipText("");
 
         tipoDeDocumentoDoTitulojLabel.setText("Tipo de Documento");
 
+        tipoDeDocumentoDoTitulojTextField.setText("Boleto");
         tipoDeDocumentoDoTitulojTextField.setToolTipText("");
 
         aceiteDoTitulojLabel.setText("Aceite");
 
+        aceiteDoTitulojTextField.setText("A");
         aceiteDoTitulojTextField.setToolTipText("");
 
         descontoDoTitulojLabel.setText("Desconto");
 
+        descontoDoTitulojTextField.setText("0");
         descontoDoTitulojTextField.setToolTipText("");
 
         deducaoDoTitulojLabel.setText("Dedução");
 
+        deducaoDoTitulojTextField.setText("0");
         deducaoDoTitulojTextField.setToolTipText("");
 
         moraDoTitulojLabel.setText("Mora");
 
+        moraDoTitulojTextField.setText("0");
         moraDoTitulojTextField.setToolTipText("");
 
         acrescimoDoTitulojLabel.setText("Acréscimo");
 
+        acrescimoDoTitulojTextField.setText("0");
         acrescimoDoTitulojTextField.setToolTipText("");
 
         valorCobradoDoTitulojLabel.setText("Valor Cobrado");
 
+        valorCobredoDoTitulojTextField.setText("300");
         valorCobredoDoTitulojTextField.setToolTipText("");
 
         javax.swing.GroupLayout dadosDoTitulojPanelLayout = new javax.swing.GroupLayout(dadosDoTitulojPanel);
@@ -463,36 +484,44 @@ public class Interface extends javax.swing.JFrame {
 
         nomeDoSacadoAvalistajLabel.setText("Nome");
 
+        nomeDoSacadoAvalistajTextField.setText("Andre2");
         nomeDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         CPFDoSacadoAvalistajLabel.setText("CPF");
 
+        CPFDoSacadoAvalistajTextField.setText("222.222.222-22");
         CPFDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         enderecoDoSacadoAvalistaJPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Endereço"));
 
         UFDoSacadoAvalistajLabel.setText("UF");
 
+        UFDoSacadoAvalistajTextField.setText("DF");
         UFDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         localidadeDoSacadoAvalistajLabel.setText("Localidade");
 
+        localidadeDoSacadoAvalistajTextField.setText("Algo2");
         localidadeDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         CEPDoSacadoAvalistajLabel.setText("CEP");
 
+        CEPDoSacadoAvalistajTextField.setText("59064-120");
         CEPDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         bairroDoSacadoAvalistajLabel.setText("Bairro");
 
+        bairroDoSacadoAvalistajTextField.setText("Lugar3");
         bairroDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         logradouroDoSacadoAvalistajLabel.setText("Logradouro");
 
+        logradouroDoSacadoAvalistajTextField.setText("Lugar4");
         logradouroDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         numeroDoSacadoAvalistajLabel.setText("Numero");
 
+        numeroDoSacadoAvalistajTextField.setText("321");
         numeroDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         javax.swing.GroupLayout enderecoDoSacadoAvalistaJPanelLayout = new javax.swing.GroupLayout(enderecoDoSacadoAvalistaJPanel);
@@ -591,10 +620,12 @@ public class Interface extends javax.swing.JFrame {
 
         nomeDaEmpresajLabel.setText("Nome da Empresa");
 
+        nomeDaEmpresajTextField.setText("Empresa");
         nomeDaEmpresajTextField.setToolTipText("Digite");
 
         CNPJjLabel.setText("CNPJ");
 
+        CNPJjTextField.setText("00.000.208/0001-00");
         CNPJjTextField.setToolTipText("Digite");
 
         javax.swing.GroupLayout DadosDoCedentejPanelLayout = new javax.swing.GroupLayout(DadosDoCedentejPanel);
@@ -630,25 +661,32 @@ public class Interface extends javax.swing.JFrame {
 
         bancoDaContaBancariaJLabel.setText("Banco");
 
+        bancoDaContaBancariajTextField.setText("Banco");
         bancoDaContaBancariajTextField.setToolTipText("Digite");
 
         numeroDaContaDaContaBancariajLabel.setText("Numero da Conta");
 
+        numeroDaContaDaContaBancariajTextField.setText("151515");
         numeroDaContaDaContaBancariajTextField.setToolTipText("Digite");
 
         tiposDeCarteiraDaContaBancariajLabel.setText("Tipo de Cateira");
 
+        tipoDeCarteiraDaContaBancariajTextField.setText("30");
         tipoDeCarteiraDaContaBancariajTextField.setToolTipText("Digite");
 
         agenciaDaContaBancariaJPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Agencia"));
 
         nomeAgenciaDaContaBancariajLabel.setText("Nome");
 
+        nomeAgenciaDaContaBancariajTextField.setText("Agencia");
         nomeAgenciaDaContaBancariajTextField.setToolTipText("Digite");
 
         numeroAgenciaDaContaBancariajLabel.setText("Número");
 
+        numeroAgenciaDaContaBancariajTextField.setText("020");
         numeroAgenciaDaContaBancariajTextField.setToolTipText("Digite");
+
+        digitoAgenciajTextField.setText("5");
 
         javax.swing.GroupLayout agenciaDaContaBancariaJPanelLayout = new javax.swing.GroupLayout(agenciaDaContaBancariaJPanel);
         agenciaDaContaBancariaJPanel.setLayout(agenciaDaContaBancariaJPanelLayout);
@@ -679,6 +717,8 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
+
+        digitoContajTextField.setText("2");
 
         javax.swing.GroupLayout dadosDaContaBancariajPanel1Layout = new javax.swing.GroupLayout(dadosDaContaBancariajPanel1);
         dadosDaContaBancariajPanel1.setLayout(dadosDaContaBancariajPanel1Layout);
@@ -727,10 +767,12 @@ public class Interface extends javax.swing.JFrame {
 
         localDePagamentoDoBoletojLabel.setText("Local de Pagamento");
 
+        localDePagamentoDoBoletojTextField.setText("Loterica");
         localDePagamentoDoBoletojTextField.setToolTipText("Digite o Local de Pagamento");
 
         instrucaoAoSacadoDoBoletojLabel.setText("Instrução ao Sacado");
 
+        instrucaoAoSacadoDoBoletojTextField.setText("Algo");
         instrucaoAoSacadoDoBoletojTextField.setToolTipText("Digite");
 
         instrucao1DoBoletojLabel.setText("Instrução 1");
@@ -1006,8 +1048,8 @@ public class Interface extends javax.swing.JFrame {
         titulo.setAcrecimo(new BigDecimal(Double.parseDouble(acrescimoDoTitulojTextField.getText())));
         titulo.setValorCobrado(new BigDecimal(Double.parseDouble(valorCobredoDoTitulojTextField.getText())));
         
-        MeuPrimeiroBoleto.setTitulo(titulo);
-        MeuPrimeiroBoleto.setFlag(true);
+        MeuPrimeiroBoleto.generateBoleto(titulo);
+        //MeuPrimeiroBoleto.setFlag(true);
         
     }//GEN-LAST:event_okActionPerformed
 

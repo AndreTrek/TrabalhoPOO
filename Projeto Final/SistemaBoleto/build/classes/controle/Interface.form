@@ -163,6 +163,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="nomeDoSacadojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Andre"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o nome do Sacado"/>
                   </Properties>
                 </Component>
@@ -173,6 +174,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="CPFDoSacadojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="222.222.222-22"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o CPF do Sacado"/>
                   </Properties>
                 </Component>
@@ -270,6 +272,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="UFDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="DF"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite o UF do Sacado"/>
                       </Properties>
                     </Component>
@@ -280,6 +283,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="localidadeDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Algo"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite a Localidade do Sacado"/>
                       </Properties>
                     </Component>
@@ -290,6 +294,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="CEPDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="59064-120"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite o CEP do Sacado"/>
                       </Properties>
                     </Component>
@@ -300,6 +305,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="bairroDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Lugar"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite o Bairro do Sacado"/>
                       </Properties>
                     </Component>
@@ -310,6 +316,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="logradouroDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Lugar2"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite o Logradouro do Sacado"/>
                       </Properties>
                     </Component>
@@ -320,6 +327,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="numeroDoSacadojTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="123"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite o N&#xfa;mero do Sacado"/>
                       </Properties>
                     </Component>
@@ -492,6 +500,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="numeroDoDocumentoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="123456"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o N&#xfa;mero do Documento Do Titulo"/>
                   </Properties>
                 </Component>
@@ -502,6 +511,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="nossoNumeroDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="99345678912"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o Nosso N&#xfa;mero"/>
                   </Properties>
                 </Component>
@@ -512,6 +522,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="digitoNossoNumeroDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="5"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o Titulo do Nosso Numero"/>
                   </Properties>
                 </Component>
@@ -522,6 +533,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="valorDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="300"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -532,6 +544,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="dataDoDocumentoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="12/10/1995"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -542,6 +555,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="dataDeVencimentoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="20/10/1995"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -552,6 +566,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="tipoDeDocumentoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Boleto"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -562,6 +577,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="aceiteDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="A"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -572,6 +588,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="descontoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -582,6 +599,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="deducaoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -592,6 +610,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="moraDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -602,6 +621,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="acrescimoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -612,6 +632,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="valorCobredoDoTitulojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="300"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
@@ -673,6 +694,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="nomeDoSacadoAvalistajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Andre2"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -683,6 +705,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="CPFDoSacadoAvalistajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="222.222.222-22"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -780,6 +803,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="UFDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="DF"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -790,6 +814,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="localidadeDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Algo2"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -800,6 +825,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="CEPDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="59064-120"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -810,6 +836,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="bairroDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Lugar3"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -820,6 +847,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="logradouroDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Lugar4"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -830,6 +858,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="numeroDoSacadoAvalistajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="321"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -891,6 +920,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="nomeDaEmpresajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Empresa"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -901,6 +931,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="CNPJjTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="00.000.208/0001-00"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -978,6 +1009,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="bancoDaContaBancariajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Banco"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -988,6 +1020,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="numeroDaContaDaContaBancariajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="151515"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -998,6 +1031,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="tipoDeCarteiraDaContaBancariajTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="30"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
@@ -1056,6 +1090,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="nomeAgenciaDaContaBancariajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="Agencia"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
@@ -1066,14 +1101,21 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="numeroAgenciaDaContaBancariajTextField">
                       <Properties>
+                        <Property name="text" type="java.lang.String" value="020"/>
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="digitoAgenciajTextField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="5"/>
+                      </Properties>
                     </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JTextField" name="digitoContajTextField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2"/>
+                  </Properties>
                 </Component>
               </SubComponents>
             </Container>
@@ -1219,6 +1261,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="localDePagamentoDoBoletojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Loterica"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite o Local de Pagamento"/>
                   </Properties>
                 </Component>
@@ -1229,6 +1272,7 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="instrucaoAoSacadoDoBoletojTextField">
                   <Properties>
+                    <Property name="text" type="java.lang.String" value="Algo"/>
                     <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>

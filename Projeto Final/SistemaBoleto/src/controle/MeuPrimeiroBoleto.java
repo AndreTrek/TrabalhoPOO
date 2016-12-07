@@ -52,23 +52,16 @@ public class MeuPrimeiroBoleto {
     public static void setTitulo(Titulo tituloaux){
         MeuPrimeiroBoleto.tituloaux = tituloaux;
     }
-    
+    /*
     public static void setFlag(boolean flag){
         MeuPrimeiroBoleto.flag = flag;
     }
     
     public static boolean getFlag(){
         return flag;
-    }
-
-    public static void main(String[] args) { 
-                        
-        controle.Interface.main(args);
-        flag = getFlag();
-        
-        if(flag){
-            Boleto boleto = new Boleto(getTitulo());
-
+    }*/
+    public static void generateBoleto(Titulo tituloaux){
+            Boleto boleto = new Boleto(tituloaux);
             boleto.setLocalPagamento("Pagável preferencialmente na Rede X ou em "
                     + "qualquer Banco até o Vencimento.");
             boleto.setInstrucaoAoSacado("Senhor sacado, sabemos sim que o valor "
@@ -97,7 +90,16 @@ public class MeuPrimeiroBoleto {
 
             // Mostrando o boleto gerado na tela.
             mostreBoletoNaTela(arquivoPdf);
-        }
+    }
+
+    public static void main(String[] args) { 
+                        
+        controle.Interface.main(args);
+        //flag = getFlag();
+        /*
+        if(flag){
+            
+        }*/
     }
 
     /**
