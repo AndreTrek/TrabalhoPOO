@@ -3,3 +3,4 @@ Trabalho final da disciplina de Programação Orientada a Objetos, UFG-INF-CC/20
 Membros: 
 @AndreTrek = André Pires Corrêa
 @Marcos13Souza = Marcos Antônio de Souza
+@gasn331 = Gabriel Antonio da Silva
