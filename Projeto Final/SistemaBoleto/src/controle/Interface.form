@@ -79,7 +79,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="dadosDoSacadoAvalistajPanel" max="32767" attributes="0"/>
-                          <Component id="dadosDoSacadojPanel" pref="0" max="32767" attributes="0"/>
+                          <Component id="dadosDoSacadojPanel" pref="266" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -321,8 +321,8 @@
                     </Component>
                     <Component class="javax.swing.JFormattedTextField" name="CEPDoSacadojTextField">
                       <Properties>
-                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                          <Format format="#####-###" subtype="-1" type="5"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter5;&#xa;try {&#xa;formatter5 = new MaskFormatter(&quot;#####-###&quot;);&#xa;formatter5.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter5.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter5)" type="code"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -330,8 +330,8 @@
                 </Container>
                 <Component class="javax.swing.JFormattedTextField" name="CPFDoSacadojTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter3;&#xa;try {&#xa;formatter3 = new MaskFormatter(&quot;###.###.###-##&quot;);&#xa;formatter3.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter3.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter3)" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -551,7 +551,9 @@
                 <Component class="javax.swing.JTextField" name="aceiteDoTitulojTextField">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="A"/>
-                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                    <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="&quot;A ou N&quot;" type="code"/>
+                    </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="descontoDoTitulojLabel">
@@ -611,22 +613,22 @@
                 </Component>
                 <Component class="javax.swing.JFormattedTextField" name="dataDoDocumentoDoTitulojTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter;&#xa;try {&#xa;    formatter = new MaskFormatter(&quot;##/##/####&quot;);&#xa;&#xa;formatter.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;    ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter)" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JFormattedTextField" name="dataDeVencimentoDoTitulojTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter2;&#xa;try {&#xa;formatter2 = new MaskFormatter(&quot;##/##/####&quot;);&#xa;formatter2.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter2.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter2)" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JFormattedTextField" name="digitoNossoNumeroDoTitulojTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="#" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(createMask(&quot;#&quot;, &quot;5&quot;))" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -848,8 +850,8 @@
                     </Component>
                     <Component class="javax.swing.JFormattedTextField" name="CEPDoSacadoAvalistajTextField">
                       <Properties>
-                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                          <Format format="#####-###" subtype="-1" type="5"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter6;&#xa;try {&#xa;formatter6 = new MaskFormatter(&quot;#####-###&quot;);&#xa;formatter6.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter6.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter6)" type="code"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -857,8 +859,8 @@
                 </Container>
                 <Component class="javax.swing.JFormattedTextField" name="CPFDoSacadoAvalistajTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter4;&#xa;try {&#xa;formatter4 = new MaskFormatter(&quot;###.###.###-##&quot;);&#xa;formatter4.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter4.setPlaceholderCharacter(&apos;_&apos;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter4)" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -926,8 +928,8 @@
                 </Component>
                 <Component class="javax.swing.JFormattedTextField" name="CNPJjTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="##.###.###/####-##" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="MaskFormatter formatter7;&#xa;try {&#xa;formatter7 = new MaskFormatter(&quot;##.###.###/####-##&quot;);&#xa;formatter7.setValidCharacters(&quot;1234567890&quot;);&#xa;formatter7.setPlaceholderCharacter(&apos;_&apos;);&#xa;formatter7.setPlaceholder(&quot;00.000.000/0001-91&quot;);" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(formatter7)" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1093,15 +1095,15 @@
                     </Component>
                     <Component class="javax.swing.JFormattedTextField" name="digitoAgenciajTextField">
                       <Properties>
-                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                          <Format format="#" subtype="-1" type="5"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Connection code="new javax.swing.text.DefaultFormatterFactory(createMask(&quot;#&quot;, &quot;1&quot;))" type="code"/>
                         </Property>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JFormattedTextField" name="numeroAgenciaDaContaBancariajTextField">
                       <Properties>
-                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                          <Format format="####" subtype="-1" type="5"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Connection code="new javax.swing.text.DefaultFormatterFactory(createMask(&quot;####&quot;, &quot;1234&quot;))" type="code"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -1109,15 +1111,15 @@
                 </Container>
                 <Component class="javax.swing.JFormattedTextField" name="digitoContajTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="#" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(createMask(&quot;#&quot;, &quot;1&quot;))" type="code"/>
                     </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JFormattedTextField" name="numeroDaContaDaContaBancariajTextField">
                   <Properties>
-                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
-                      <Format format="######" subtype="-1" type="5"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Connection code="new javax.swing.text.DefaultFormatterFactory(createMask(&quot;######&quot;, &quot;123456&quot;))" type="code"/>
                     </Property>
                   </Properties>
                 </Component>

@@ -5,13 +5,10 @@
  */
 package controle;
 
-import static controle.MeuPrimeiroBoleto.setTitulo;
+import javax.swing.text.MaskFormatter;
 import java.math.BigDecimal;
 import java.util.Date;
-import static javafx.application.Platform.exit;
 import org.jrimum.bopepo.BancosSuportados;
-import org.jrimum.bopepo.Boleto;
-import org.jrimum.bopepo.view.BoletoViewer;
 import org.jrimum.domkee.comum.pessoa.endereco.CEP;
 import org.jrimum.domkee.comum.pessoa.endereco.Endereco;
 import org.jrimum.domkee.comum.pessoa.endereco.UnidadeFederativa;
@@ -25,6 +22,7 @@ import org.jrimum.domkee.financeiro.banco.febraban.SacadorAvalista;
 import org.jrimum.domkee.financeiro.banco.febraban.TipoDeTitulo;
 import org.jrimum.domkee.financeiro.banco.febraban.Titulo;
 import org.jrimum.domkee.financeiro.banco.febraban.Titulo.EnumAceite;
+import java.text.ParseException;
 
 /**
  *
@@ -38,7 +36,12 @@ public class Interface extends javax.swing.JFrame {
     public Interface() {
         initComponents();
     }
-
+    private MaskFormatter createMask(String mask, String placeholder) throws ParseException{   
+        MaskFormatter formatter = new MaskFormatter(mask);
+        formatter.setPlaceholderCharacter('_');
+        formatter.setPlaceholder(placeholder);
+        return formatter;
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -195,8 +198,12 @@ public class Interface extends javax.swing.JFrame {
         numeroDoSacadojTextField.setText("123");
         numeroDoSacadojTextField.setToolTipText("Digite o Número do Sacado");
 
+        MaskFormatter formatter5;
         try {
-            CEPDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#####-###")));
+            formatter5 = new MaskFormatter("#####-###");
+            formatter5.setValidCharacters("1234567890");
+            formatter5.setPlaceholderCharacter('_');
+            CEPDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter5));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -262,8 +269,12 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(numeroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
+        MaskFormatter formatter3;
         try {
-            CPFDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+            formatter3 = new MaskFormatter("###.###.###-##");
+            formatter3.setValidCharacters("1234567890");
+            formatter3.setPlaceholderCharacter('_');
+            CPFDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter3));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -330,7 +341,7 @@ public class Interface extends javax.swing.JFrame {
         aceiteDoTitulojLabel.setText("Aceite");
 
         aceiteDoTitulojTextField.setText("A");
-        aceiteDoTitulojTextField.setToolTipText("");
+        aceiteDoTitulojTextField.setToolTipText("A ou N");
 
         descontoDoTitulojLabel.setText("Desconto");
 
@@ -357,20 +368,29 @@ public class Interface extends javax.swing.JFrame {
         valorCobredoDoTitulojTextField.setText("300");
         valorCobredoDoTitulojTextField.setToolTipText("");
 
+        MaskFormatter formatter;
         try {
-            dataDoDocumentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
+            formatter = new MaskFormatter("##/##/####");
+
+            formatter.setValidCharacters("1234567890");
+            formatter.setPlaceholderCharacter('_');
+            dataDoDocumentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        MaskFormatter formatter2;
+        try {
+            formatter2 = new MaskFormatter("##/##/####");
+            formatter2.setValidCharacters("1234567890");
+            formatter2.setPlaceholderCharacter('_');
+            dataDeVencimentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter2));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
 
         try {
-            dataDeVencimentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
-        } catch (java.text.ParseException ex) {
-            ex.printStackTrace();
-        }
-
-        try {
-            digitoNossoNumeroDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+            digitoNossoNumeroDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(createMask("#", "5")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -525,8 +545,12 @@ public class Interface extends javax.swing.JFrame {
         numeroDoSacadoAvalistajTextField.setText("321");
         numeroDoSacadoAvalistajTextField.setToolTipText("Digite");
 
+        MaskFormatter formatter6;
         try {
-            CEPDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#####-###")));
+            formatter6 = new MaskFormatter("#####-###");
+            formatter6.setValidCharacters("1234567890");
+            formatter6.setPlaceholderCharacter('_');
+            CEPDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter6));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -592,8 +616,12 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(numeroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
+        MaskFormatter formatter4;
         try {
-            CPFDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+            formatter4 = new MaskFormatter("###.###.###-##");
+            formatter4.setValidCharacters("1234567890");
+            formatter4.setPlaceholderCharacter('_');
+            CPFDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter4));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -639,8 +667,13 @@ public class Interface extends javax.swing.JFrame {
 
         CNPJjLabel.setText("CNPJ");
 
+        MaskFormatter formatter7;
         try {
-            CNPJjTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##.###.###/####-##")));
+            formatter7 = new MaskFormatter("##.###.###/####-##");
+            formatter7.setValidCharacters("1234567890");
+            formatter7.setPlaceholderCharacter('_');
+            formatter7.setPlaceholder("00.000.000/0001-91");
+            CNPJjTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(formatter7));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -696,13 +729,13 @@ public class Interface extends javax.swing.JFrame {
         numeroAgenciaDaContaBancariajLabel.setText("Número");
 
         try {
-            digitoAgenciajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+            digitoAgenciajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(createMask("#", "1")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
 
         try {
-            numeroAgenciaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("####")));
+            numeroAgenciaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(createMask("####", "1234")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -738,13 +771,13 @@ public class Interface extends javax.swing.JFrame {
         );
 
         try {
-            digitoContajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+            digitoContajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(createMask("#", "1")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
 
         try {
-            numeroDaContaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("######")));
+            numeroDaContaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(createMask("######", "123456")));
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
@@ -981,7 +1014,7 @@ public class Interface extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(dadosDoSacadoAvalistajPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 266, Short.MAX_VALUE))
                 .addGap(45, 45, 45)
                 .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
@@ -1076,7 +1109,15 @@ public class Interface extends javax.swing.JFrame {
         titulo.setAcrecimo(new BigDecimal(Double.parseDouble(acrescimoDoTitulojTextField.getText())));
         titulo.setValorCobrado(new BigDecimal(Double.parseDouble(valorCobredoDoTitulojTextField.getText())));
         
-        MeuPrimeiroBoleto.generateBoleto(titulo);
+        MeuPrimeiroBoleto.generateBoleto(titulo, localDePagamentoDoBoletojTextField.getText(),  instrucaoAoSacadoDoBoletojTextField.getText(),
+                instrucao1DoBoletoTextField.getText(),
+                instrucao2DoBoletoTextField.getText(),
+                instrucao3DoBoletoTextField.getText(),
+                instrucao4DoBoletoTextField.getText(),
+                instrucao5DoBoletoTextField.getText(),
+                instrucao6DoBoletoTextField.getText(),
+                instrucao7DoBoletoTextField.getText(),
+                instrucao8DoBoletoTextField.getText());
         System.exit(0);
         
     }//GEN-LAST:event_okActionPerformed

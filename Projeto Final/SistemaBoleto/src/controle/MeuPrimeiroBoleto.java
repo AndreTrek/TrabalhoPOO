@@ -2,44 +2,9 @@ package controle;
 
 import java.io.File;
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.Date;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import org.jrimum.bopepo.BancosSuportados;
 import org.jrimum.bopepo.Boleto;
 import org.jrimum.bopepo.view.BoletoViewer;
-import org.jrimum.domkee.comum.pessoa.endereco.CEP;
-import org.jrimum.domkee.comum.pessoa.endereco.Endereco;
-import org.jrimum.domkee.comum.pessoa.endereco.UnidadeFederativa;
-import org.jrimum.domkee.financeiro.banco.febraban.Agencia;
-import org.jrimum.domkee.financeiro.banco.febraban.Carteira;
-import org.jrimum.domkee.financeiro.banco.febraban.Cedente;
-import org.jrimum.domkee.financeiro.banco.febraban.ContaBancaria;
-import org.jrimum.domkee.financeiro.banco.febraban.NumeroDaConta;
-import org.jrimum.domkee.financeiro.banco.febraban.Sacado;
-import org.jrimum.domkee.financeiro.banco.febraban.SacadorAvalista;
-import org.jrimum.domkee.financeiro.banco.febraban.TipoDeTitulo;
 import org.jrimum.domkee.financeiro.banco.febraban.Titulo;
-import org.jrimum.domkee.financeiro.banco.febraban.Titulo.EnumAceite;
-
-/**
- * <p>
- * Exemplo de código para geração de um boleto simples.
- * </p>
- * <p>
- * Utiliza o Banco Bradesco como exemplo, já que possui um implementação
- * simples.
- * </p>
- *
- * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L</a>
- * @author <a href="mailto:misaelbarreto@gmail.com">Misael Barreto</a>
- * @author <a href="mailto:romulomail@gmail.com">Rômulo Augusto</a>
- *
- * @since 0.2
- *
- * @version 0.2
- */
 public class MeuPrimeiroBoleto {
     
     public static Titulo tituloaux;
@@ -52,21 +17,26 @@ public class MeuPrimeiroBoleto {
         MeuPrimeiroBoleto.tituloaux = tituloaux;
     }
 
-    public static void generateBoleto(Titulo tituloaux){
+    public static void generateBoleto(Titulo tituloaux, String loc, String inst, 
+            String in1,
+            String in2,
+            String in3,
+            String in4,
+            String in5,
+            String in6,
+            String in7,
+            String in8){
             Boleto boleto = new Boleto(tituloaux);
-            boleto.setLocalPagamento("Pagável preferencialmente na Rede X ou em "
-                    + "qualquer Banco até o Vencimento.");
-            boleto.setInstrucaoAoSacado("Senhor sacado, sabemos sim que o valor "
-                    + "cobrado não é o esperado, aproveite o DESCONTÃO!");
-            boleto.setInstrucao1("PARA PAGAMENTO 1 até Hoje não cobrar nada!");
-            boleto.setInstrucao2("PARA PAGAMENTO 2 até Amanhã Não cobre!");
-            boleto.setInstrucao3("PARA PAGAMENTO 3 até Depois de amanhã, OK, não cobre.");
-            boleto.setInstrucao4("PARA PAGAMENTO 4 até 04/xx/xxxx de 4 dias atrás COBRAR O VALOR DE: R$ 01,00");
-            boleto.setInstrucao5("PARA PAGAMENTO 5 até 05/xx/xxxx COBRAR O VALOR DE: R$ 02,00");
-            boleto.setInstrucao6("PARA PAGAMENTO 6 até 06/xx/xxxx COBRAR O VALOR DE: R$ 03,00");
-            boleto.setInstrucao7("PARA PAGAMENTO 7 até xx/xx/xxxx COBRAR O VALOR QUE VOCÊ QUISER!");
-            boleto.setInstrucao8("APÓS o Vencimento, Pagável Somente na Rede X.");
-
+            boleto.setLocalPagamento(loc);
+            boleto.setInstrucaoAoSacado(inst);
+            boleto.setInstrucao1(in1);
+            boleto.setInstrucao2(in2);
+            boleto.setInstrucao3(in3);
+            boleto.setInstrucao4(in4);
+            boleto.setInstrucao5(in5);
+            boleto.setInstrucao6(in6);
+            boleto.setInstrucao7(in7);
+            boleto.setInstrucao8(in8);
             /*
                      * GERANDO O BOLETO BANCÁRIO.
              */
