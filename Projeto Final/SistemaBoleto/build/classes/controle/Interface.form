@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -46,11 +46,6 @@
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="dadosDoSacadojPanel" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="dadosDoSacadoAvalistajPanel" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="dadosDoTitulojPanel" max="32767" attributes="0"/>
                                   <Component id="DadosDoCedentejPanel" max="32767" attributes="0"/>
@@ -60,6 +55,11 @@
                                   <Component id="dadosDaContaBancariajPanel1" max="32767" attributes="0"/>
                                   <Component id="dadosDoBoletojPanel" alignment="0" max="32767" attributes="0"/>
                               </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="dadosDoSacadojPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="dadosDoSacadoAvalistajPanel" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
@@ -77,16 +77,15 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="dadosDoSacadojPanel" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="dadosDoSacadoAvalistajPanel" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="dadosDoSacadoAvalistajPanel" max="32767" attributes="0"/>
+                          <Component id="dadosDoSacadojPanel" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                               <Component id="dadosDaContaBancariajPanel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="dadosDoBoletojPanel" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -125,9 +124,9 @@
                               <Component id="CPFDoSacadojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="CPFDoSacadojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              <Component id="nomeDoSacadojTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="nomeDoSacadojTextField" pref="150" max="32767" attributes="0"/>
+                              <Component id="CPFDoSacadojTextField" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                       </Group>
@@ -149,8 +148,8 @@
                               <Component id="CPFDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="CPFDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="enderecoDoSacadojPanel" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="enderecoDoSacadojPanel" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -170,12 +169,6 @@
                 <Component class="javax.swing.JLabel" name="CPFDoSacadojLabel">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="CPF"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="CPFDoSacadojTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="222.222.222-22"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite o CPF do Sacado"/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JPanel" name="enderecoDoSacadojPanel">
@@ -204,16 +197,6 @@
                                       <Component id="localidadeDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="CEPDoSacadojLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="CEPDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="bairroDoSacadojLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="bairroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace pref="72" max="32767" attributes="0"/>
                                       <Component id="logradouroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
@@ -222,6 +205,17 @@
                                       <Component id="numeroDoSacadojLabel" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Component id="numeroDoSacadojTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="bairroDoSacadojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="CEPDoSacadojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="bairroDoSacadojTextField" pref="146" max="32767" attributes="0"/>
+                                          <Component id="CEPDoSacadojTextField" max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -255,7 +249,7 @@
                                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="logradouroDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="16" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="numeroDoSacadojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="numeroDoSacadojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -292,12 +286,6 @@
                         <Property name="text" type="java.lang.String" value="CEP"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="CEPDoSacadojTextField">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="59064-120"/>
-                        <Property name="toolTipText" type="java.lang.String" value="Digite o CEP do Sacado"/>
-                      </Properties>
-                    </Component>
                     <Component class="javax.swing.JLabel" name="bairroDoSacadojLabel">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Bairro"/>
@@ -331,8 +319,22 @@
                         <Property name="toolTipText" type="java.lang.String" value="Digite o N&#xfa;mero do Sacado"/>
                       </Properties>
                     </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="CEPDoSacadojTextField">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="#####-###" subtype="-1" type="5"/>
+                        </Property>
+                      </Properties>
+                    </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JFormattedTextField" name="CPFDoSacadojTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="dadosDoTitulojPanel">
@@ -353,33 +355,13 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <Component id="numeroDoDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="18" max="32767" attributes="0"/>
                                   <Component id="numeroDoDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="nossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="nossoNumeroDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="digitoNossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="digitoNossoNumeroDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="valorDoTitulojLabel" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="valorDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="dataDoDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="dataDoDocumentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="dataDeVencimentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="dataDeVencimentoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="tipoDeDocumentoDoTitulojLabel" min="-2" max="-2" attributes="0"/>
@@ -416,6 +398,24 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="valorCobredoDoTitulojTextField" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="dataDeVencimentoDoTitulojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dataDoDocumentoDoTitulojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="dataDoDocumentoDoTitulojTextField" max="32767" attributes="0"/>
+                                      <Component id="dataDeVencimentoDoTitulojTextField" pref="150" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="nossoNumeroDoTitulojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="nossoNumeroDoTitulojTextField" min="-2" pref="107" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="digitoNossoNumeroDoTitulojTextField" min="-2" pref="37" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -432,13 +432,9 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="nossoNumeroDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="nossoNumeroDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="digitoNossoNumeroDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="digitoNossoNumeroDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="valorDoTitulojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="valorDoTitulojTextField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -515,17 +511,6 @@
                     <Property name="toolTipText" type="java.lang.String" value="Digite o Nosso N&#xfa;mero"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="digitoNossoNumeroDoTitulojLabel">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Digito do Nosso Numero"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="digitoNossoNumeroDoTitulojTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="5"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite o Titulo do Nosso Numero"/>
-                  </Properties>
-                </Component>
                 <Component class="javax.swing.JLabel" name="valorDoTitulojLabel">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Valor"/>
@@ -542,21 +527,9 @@
                     <Property name="text" type="java.lang.String" value="Data do Documento"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="dataDoDocumentoDoTitulojTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="12/10/1995"/>
-                    <Property name="toolTipText" type="java.lang.String" value=""/>
-                  </Properties>
-                </Component>
                 <Component class="javax.swing.JLabel" name="dataDeVencimentoDoTitulojLabel">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Data de Vencimento"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="dataDeVencimentoDoTitulojTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="20/10/1995"/>
-                    <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="tipoDeDocumentoDoTitulojLabel">
@@ -636,6 +609,27 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JFormattedTextField" name="dataDoDocumentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="dataDeVencimentoDoTitulojTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##/##/####" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="digitoNossoNumeroDoTitulojTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="#" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="dadosDoSacadoAvalistajPanel">
@@ -657,10 +651,11 @@
                               <Component id="CPFDoSacadoAvalistajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="nomeDoSacadoAvalistajTextField" min="-2" pref="162" max="-2" attributes="0"/>
-                              <Component id="CPFDoSacadoAvalistajTextField" min="-2" pref="159" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="nomeDoSacadoAvalistajTextField" pref="162" max="32767" attributes="0"/>
+                              <Component id="CPFDoSacadoAvalistajTextField" max="32767" attributes="0"/>
                           </Group>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="enderecoDoSacadoAvalistaJPanel" min="-2" max="-2" attributes="0"/>
@@ -675,7 +670,7 @@
                               <Component id="nomeDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="nomeDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="12" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="CPFDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="CPFDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -701,12 +696,6 @@
                 <Component class="javax.swing.JLabel" name="CPFDoSacadoAvalistajLabel">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="CPF"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="CPFDoSacadoAvalistajTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="222.222.222-22"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JPanel" name="enderecoDoSacadoAvalistaJPanel">
@@ -735,24 +724,25 @@
                                       <Component id="localidadeDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="CEPDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="CEPDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="bairroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="bairroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
                                       <Component id="logradouroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <EmptySpace pref="23" max="32767" attributes="0"/>
                                       <Component id="logradouroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="numeroDoSacadoAvalistajLabel" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Component id="numeroDoSacadoAvalistajTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="bairroDoSacadoAvalistajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="CEPDoSacadoAvalistajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="CEPDoSacadoAvalistajTextField" max="32767" attributes="0"/>
+                                          <Component id="bairroDoSacadoAvalistajTextField" pref="146" max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -766,7 +756,7 @@
                                   <Component id="UFDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="UFDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="localidadeDoSacadoAvalistajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="localidadeDoSacadoAvalistajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -823,12 +813,6 @@
                         <Property name="text" type="java.lang.String" value="CEP"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="CEPDoSacadoAvalistajTextField">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="59064-120"/>
-                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
-                      </Properties>
-                    </Component>
                     <Component class="javax.swing.JLabel" name="bairroDoSacadoAvalistajLabel">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Bairro"/>
@@ -862,8 +846,22 @@
                         <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                       </Properties>
                     </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="CEPDoSacadoAvalistajTextField">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="#####-###" subtype="-1" type="5"/>
+                        </Property>
+                      </Properties>
+                    </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JFormattedTextField" name="CPFDoSacadoAvalistajTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="###.###.###-##" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="DadosDoCedentejPanel">
@@ -881,16 +879,13 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="CNPJjLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="CNPJjTextField" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="nomeDaEmpresajLabel" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="nomeDaEmpresajTextField" min="-2" pref="152" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="nomeDaEmpresajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CNPJjLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="nomeDaEmpresajTextField" pref="152" max="32767" attributes="0"/>
+                              <Component id="CNPJjTextField" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -929,10 +924,11 @@
                     <Property name="text" type="java.lang.String" value="CNPJ"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CNPJjTextField">
+                <Component class="javax.swing.JFormattedTextField" name="CNPJjTextField">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="00.000.208/0001-00"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="##.###.###/####-##" subtype="-1" type="5"/>
+                    </Property>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -962,15 +958,16 @@
                                       <Component id="tiposDeCarteiraDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="numeroDaContaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="43" max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <Component id="numeroDaContaDaContaBancariajTextField" min="-2" pref="110" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                                          <Component id="digitoContajTextField" min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Component id="numeroDaContaDaContaBancariajTextField" pref="108" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="digitoContajTextField" min="-2" pref="34" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="tipoDeCarteiraDaContaBancariajTextField" min="-2" pref="150" max="-2" attributes="0"/>
+                                      <Component id="tipoDeCarteiraDaContaBancariajTextField" max="32767" attributes="0"/>
                                   </Group>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -987,8 +984,8 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="numeroDaContaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="numeroDaContaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="digitoContajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="numeroDaContaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -997,6 +994,7 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="agenciaDaContaBancariaJPanel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="14" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1016,12 +1014,6 @@
                 <Component class="javax.swing.JLabel" name="numeroDaContaDaContaBancariajLabel">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Numero da Conta"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="numeroDaContaDaContaBancariajTextField">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="151515"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Digite"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="tiposDeCarteiraDaContaBancariajLabel">
@@ -1053,12 +1045,12 @@
                                   <Component id="nomeAgenciaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="numeroAgenciaDaContaBancariajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="91" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
                                       <Component id="numeroAgenciaDaContaBancariajTextField" min="-2" pref="102" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="digitoAgenciajTextField" min="-2" pref="37" max="-2" attributes="0"/>
+                                      <Component id="digitoAgenciajTextField" max="32767" attributes="0"/>
                                   </Group>
                                   <Component id="nomeAgenciaDaContaBancariajTextField" min="-2" pref="145" max="-2" attributes="0"/>
                               </Group>
@@ -1075,8 +1067,8 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="numeroAgenciaDaContaBancariajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="numeroAgenciaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="digitoAgenciajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numeroAgenciaDaContaBancariajTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1099,22 +1091,34 @@
                         <Property name="text" type="java.lang.String" value="N&#xfa;mero"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="numeroAgenciaDaContaBancariajTextField">
+                    <Component class="javax.swing.JFormattedTextField" name="digitoAgenciajTextField">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="020"/>
-                        <Property name="toolTipText" type="java.lang.String" value="Digite"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="#" subtype="-1" type="5"/>
+                        </Property>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="digitoAgenciajTextField">
+                    <Component class="javax.swing.JFormattedTextField" name="numeroAgenciaDaContaBancariajTextField">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="5"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="####" subtype="-1" type="5"/>
+                        </Property>
                       </Properties>
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JTextField" name="digitoContajTextField">
+                <Component class="javax.swing.JFormattedTextField" name="digitoContajTextField">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="2"/>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="#" subtype="-1" type="5"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="numeroDaContaDaContaBancariajTextField">
+                  <Properties>
+                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                      <Format format="######" subtype="-1" type="5"/>
+                    </Property>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -1138,21 +1142,6 @@
                                   <Component id="instrucao1DoBoletojLabel" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="instrucao1DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="localDePagamentoDoBoletojLabel" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="localDePagamentoDoBoletojTextField" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="instrucaoAoSacadoDoBoletojLabel" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="instrucaoAoSacadoDoBoletojTextField" min="-2" pref="122" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="instrucao2DoBoletojLabel" min="-2" max="-2" attributes="0"/>
@@ -1188,6 +1177,18 @@
                                   <Component id="instrucao8DoBoletojLabel" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="instrucao8DoBoletoTextField" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="localDePagamentoDoBoletojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="instrucaoAoSacadoDoBoletojLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="instrucaoAoSacadoDoBoletojTextField" min="-2" pref="122" max="-2" attributes="0"/>
+                                      <Component id="localDePagamentoDoBoletojTextField" min="-2" pref="122" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>

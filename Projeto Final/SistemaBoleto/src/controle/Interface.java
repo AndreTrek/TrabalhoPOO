@@ -54,33 +54,29 @@ public class Interface extends javax.swing.JFrame {
         nomeDoSacadojLabel = new javax.swing.JLabel();
         nomeDoSacadojTextField = new javax.swing.JTextField();
         CPFDoSacadojLabel = new javax.swing.JLabel();
-        CPFDoSacadojTextField = new javax.swing.JTextField();
         enderecoDoSacadojPanel = new javax.swing.JPanel();
         UFDoSacadojLabel = new javax.swing.JLabel();
         UFDoSacadojTextField = new javax.swing.JTextField();
         LocalidadeDoSacadojLabel = new javax.swing.JLabel();
         localidadeDoSacadojTextField = new javax.swing.JTextField();
         CEPDoSacadojLabel = new javax.swing.JLabel();
-        CEPDoSacadojTextField = new javax.swing.JTextField();
         bairroDoSacadojLabel = new javax.swing.JLabel();
         bairroDoSacadojTextField = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         logradouroDoSacadojTextField = new javax.swing.JTextField();
         numeroDoSacadojLabel = new javax.swing.JLabel();
         numeroDoSacadojTextField = new javax.swing.JTextField();
+        CEPDoSacadojTextField = new javax.swing.JFormattedTextField();
+        CPFDoSacadojTextField = new javax.swing.JFormattedTextField();
         dadosDoTitulojPanel = new javax.swing.JPanel();
         numeroDoDocumentoDoTitulojLabel = new javax.swing.JLabel();
         numeroDoDocumentoDoTitulojTextField = new javax.swing.JTextField();
         nossoNumeroDoTitulojLabel = new javax.swing.JLabel();
         nossoNumeroDoTitulojTextField = new javax.swing.JTextField();
-        digitoNossoNumeroDoTitulojLabel = new javax.swing.JLabel();
-        digitoNossoNumeroDoTitulojTextField = new javax.swing.JTextField();
         valorDoTitulojLabel = new javax.swing.JLabel();
         valorDoTitulojTextField = new javax.swing.JTextField();
         dataDoDocumentoDoTitulojLabel = new javax.swing.JLabel();
-        dataDoDocumentoDoTitulojTextField = new javax.swing.JTextField();
         dataDeVencimentoDoTitulojLabel = new javax.swing.JLabel();
-        dataDeVencimentoDoTitulojTextField = new javax.swing.JTextField();
         tipoDeDocumentoDoTitulojLabel = new javax.swing.JLabel();
         tipoDeDocumentoDoTitulojTextField = new javax.swing.JTextField();
         aceiteDoTitulojLabel = new javax.swing.JLabel();
@@ -95,43 +91,46 @@ public class Interface extends javax.swing.JFrame {
         acrescimoDoTitulojTextField = new javax.swing.JTextField();
         valorCobradoDoTitulojLabel = new javax.swing.JLabel();
         valorCobredoDoTitulojTextField = new javax.swing.JTextField();
+        dataDoDocumentoDoTitulojTextField = new javax.swing.JFormattedTextField();
+        dataDeVencimentoDoTitulojTextField = new javax.swing.JFormattedTextField();
+        digitoNossoNumeroDoTitulojTextField = new javax.swing.JFormattedTextField();
         dadosDoSacadoAvalistajPanel = new javax.swing.JPanel();
         nomeDoSacadoAvalistajLabel = new javax.swing.JLabel();
         nomeDoSacadoAvalistajTextField = new javax.swing.JTextField();
         CPFDoSacadoAvalistajLabel = new javax.swing.JLabel();
-        CPFDoSacadoAvalistajTextField = new javax.swing.JTextField();
         enderecoDoSacadoAvalistaJPanel = new javax.swing.JPanel();
         UFDoSacadoAvalistajLabel = new javax.swing.JLabel();
         UFDoSacadoAvalistajTextField = new javax.swing.JTextField();
         localidadeDoSacadoAvalistajLabel = new javax.swing.JLabel();
         localidadeDoSacadoAvalistajTextField = new javax.swing.JTextField();
         CEPDoSacadoAvalistajLabel = new javax.swing.JLabel();
-        CEPDoSacadoAvalistajTextField = new javax.swing.JTextField();
         bairroDoSacadoAvalistajLabel = new javax.swing.JLabel();
         bairroDoSacadoAvalistajTextField = new javax.swing.JTextField();
         logradouroDoSacadoAvalistajLabel = new javax.swing.JLabel();
         logradouroDoSacadoAvalistajTextField = new javax.swing.JTextField();
         numeroDoSacadoAvalistajLabel = new javax.swing.JLabel();
         numeroDoSacadoAvalistajTextField = new javax.swing.JTextField();
+        CEPDoSacadoAvalistajTextField = new javax.swing.JFormattedTextField();
+        CPFDoSacadoAvalistajTextField = new javax.swing.JFormattedTextField();
         DadosDoCedentejPanel = new javax.swing.JPanel();
         nomeDaEmpresajLabel = new javax.swing.JLabel();
         nomeDaEmpresajTextField = new javax.swing.JTextField();
         CNPJjLabel = new javax.swing.JLabel();
-        CNPJjTextField = new javax.swing.JTextField();
+        CNPJjTextField = new javax.swing.JFormattedTextField();
         dadosDaContaBancariajPanel1 = new javax.swing.JPanel();
         bancoDaContaBancariaJLabel = new javax.swing.JLabel();
         bancoDaContaBancariajTextField = new javax.swing.JTextField();
         numeroDaContaDaContaBancariajLabel = new javax.swing.JLabel();
-        numeroDaContaDaContaBancariajTextField = new javax.swing.JTextField();
         tiposDeCarteiraDaContaBancariajLabel = new javax.swing.JLabel();
         tipoDeCarteiraDaContaBancariajTextField = new javax.swing.JTextField();
         agenciaDaContaBancariaJPanel = new javax.swing.JPanel();
         nomeAgenciaDaContaBancariajLabel = new javax.swing.JLabel();
         nomeAgenciaDaContaBancariajTextField = new javax.swing.JTextField();
         numeroAgenciaDaContaBancariajLabel = new javax.swing.JLabel();
-        numeroAgenciaDaContaBancariajTextField = new javax.swing.JTextField();
-        digitoAgenciajTextField = new javax.swing.JTextField();
-        digitoContajTextField = new javax.swing.JTextField();
+        digitoAgenciajTextField = new javax.swing.JFormattedTextField();
+        numeroAgenciaDaContaBancariajTextField = new javax.swing.JFormattedTextField();
+        digitoContajTextField = new javax.swing.JFormattedTextField();
+        numeroDaContaDaContaBancariajTextField = new javax.swing.JFormattedTextField();
         dadosDoBoletojPanel = new javax.swing.JPanel();
         localDePagamentoDoBoletojLabel = new javax.swing.JLabel();
         localDePagamentoDoBoletojTextField = new javax.swing.JTextField();
@@ -167,9 +166,6 @@ public class Interface extends javax.swing.JFrame {
 
         CPFDoSacadojLabel.setText("CPF");
 
-        CPFDoSacadojTextField.setText("222.222.222-22");
-        CPFDoSacadojTextField.setToolTipText("Digite o CPF do Sacado");
-
         enderecoDoSacadojPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Endereço"));
 
         UFDoSacadojLabel.setText("UF");
@@ -183,9 +179,6 @@ public class Interface extends javax.swing.JFrame {
         localidadeDoSacadojTextField.setToolTipText("Digite a Localidade do Sacado");
 
         CEPDoSacadojLabel.setText("CEP");
-
-        CEPDoSacadojTextField.setText("59064-120");
-        CEPDoSacadojTextField.setToolTipText("Digite o CEP do Sacado");
 
         bairroDoSacadojLabel.setText("Bairro");
 
@@ -201,6 +194,12 @@ public class Interface extends javax.swing.JFrame {
 
         numeroDoSacadojTextField.setText("123");
         numeroDoSacadojTextField.setToolTipText("Digite o Número do Sacado");
+
+        try {
+            CEPDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#####-###")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout enderecoDoSacadojPanelLayout = new javax.swing.GroupLayout(enderecoDoSacadojPanel);
         enderecoDoSacadojPanel.setLayout(enderecoDoSacadojPanelLayout);
@@ -218,21 +217,21 @@ public class Interface extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(localidadeDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(enderecoDoSacadojPanelLayout.createSequentialGroup()
-                        .addComponent(CEPDoSacadojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(CEPDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(enderecoDoSacadojPanelLayout.createSequentialGroup()
-                        .addComponent(bairroDoSacadojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bairroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(enderecoDoSacadojPanelLayout.createSequentialGroup()
                         .addComponent(jLabel7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
                         .addComponent(logradouroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(enderecoDoSacadojPanelLayout.createSequentialGroup()
                         .addComponent(numeroDoSacadojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(numeroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(numeroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, enderecoDoSacadojPanelLayout.createSequentialGroup()
+                        .addGroup(enderecoDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bairroDoSacadojLabel)
+                            .addComponent(CEPDoSacadojLabel))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(enderecoDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(bairroDoSacadojTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE)
+                            .addComponent(CEPDoSacadojTextField))))
                 .addContainerGap())
         );
         enderecoDoSacadojPanelLayout.setVerticalGroup(
@@ -257,11 +256,17 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(enderecoDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
                     .addComponent(logradouroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
                 .addGroup(enderecoDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(numeroDoSacadojLabel)
                     .addComponent(numeroDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
+
+        try {
+            CPFDoSacadojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout dadosDoSacadojPanelLayout = new javax.swing.GroupLayout(dadosDoSacadojPanel);
         dadosDoSacadojPanel.setLayout(dadosDoSacadojPanelLayout);
@@ -273,9 +278,9 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(nomeDoSacadojLabel)
                     .addComponent(CPFDoSacadojLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(dadosDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(CPFDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nomeDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(dadosDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(nomeDoSacadojTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                    .addComponent(CPFDoSacadojTextField))
                 .addGap(13, 13, 13))
             .addGroup(dadosDoSacadojPanelLayout.createSequentialGroup()
                 .addComponent(enderecoDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -291,8 +296,8 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(dadosDoSacadojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CPFDoSacadojLabel)
                     .addComponent(CPFDoSacadojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(enderecoDoSacadojPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(enderecoDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         dadosDoTitulojPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Dados do Título"));
@@ -308,11 +313,6 @@ public class Interface extends javax.swing.JFrame {
         nossoNumeroDoTitulojTextField.setText("99345678912");
         nossoNumeroDoTitulojTextField.setToolTipText("Digite o Nosso Número");
 
-        digitoNossoNumeroDoTitulojLabel.setText("Digito do Nosso Numero");
-
-        digitoNossoNumeroDoTitulojTextField.setText("5");
-        digitoNossoNumeroDoTitulojTextField.setToolTipText("Digite o Titulo do Nosso Numero");
-
         valorDoTitulojLabel.setText("Valor");
 
         valorDoTitulojTextField.setText("300");
@@ -320,13 +320,7 @@ public class Interface extends javax.swing.JFrame {
 
         dataDoDocumentoDoTitulojLabel.setText("Data do Documento");
 
-        dataDoDocumentoDoTitulojTextField.setText("12/10/1995");
-        dataDoDocumentoDoTitulojTextField.setToolTipText("");
-
         dataDeVencimentoDoTitulojLabel.setText("Data de Vencimento");
-
-        dataDeVencimentoDoTitulojTextField.setText("20/10/1995");
-        dataDeVencimentoDoTitulojTextField.setToolTipText("");
 
         tipoDeDocumentoDoTitulojLabel.setText("Tipo de Documento");
 
@@ -363,6 +357,24 @@ public class Interface extends javax.swing.JFrame {
         valorCobredoDoTitulojTextField.setText("300");
         valorCobredoDoTitulojTextField.setToolTipText("");
 
+        try {
+            dataDoDocumentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        try {
+            dataDeVencimentoDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        try {
+            digitoNossoNumeroDoTitulojTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
         javax.swing.GroupLayout dadosDoTitulojPanelLayout = new javax.swing.GroupLayout(dadosDoTitulojPanel);
         dadosDoTitulojPanel.setLayout(dadosDoTitulojPanelLayout);
         dadosDoTitulojPanelLayout.setHorizontalGroup(
@@ -372,28 +384,12 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(numeroDoDocumentoDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                         .addComponent(numeroDoDocumentoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
-                        .addComponent(nossoNumeroDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(nossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dadosDoTitulojPanelLayout.createSequentialGroup()
-                        .addComponent(digitoNossoNumeroDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(digitoNossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(valorDoTitulojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(valorDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
-                        .addComponent(dataDoDocumentoDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(dataDoDocumentoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
-                        .addComponent(dataDeVencimentoDoTitulojLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(dataDeVencimentoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(tipoDeDocumentoDoTitulojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -421,7 +417,21 @@ public class Interface extends javax.swing.JFrame {
                     .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
                         .addComponent(valorCobradoDoTitulojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(valorCobredoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(valorCobredoDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dadosDoTitulojPanelLayout.createSequentialGroup()
+                        .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(dataDeVencimentoDoTitulojLabel)
+                            .addComponent(dataDoDocumentoDoTitulojLabel))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(dataDoDocumentoDoTitulojTextField)
+                            .addComponent(dataDeVencimentoDoTitulojTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)))
+                    .addGroup(dadosDoTitulojPanelLayout.createSequentialGroup()
+                        .addComponent(nossoNumeroDoTitulojLabel)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(nossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(digitoNossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         dadosDoTitulojPanelLayout.setVerticalGroup(
@@ -433,10 +443,7 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nossoNumeroDoTitulojLabel)
-                    .addComponent(nossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(digitoNossoNumeroDoTitulojLabel)
+                    .addComponent(nossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(digitoNossoNumeroDoTitulojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDoTitulojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -489,9 +496,6 @@ public class Interface extends javax.swing.JFrame {
 
         CPFDoSacadoAvalistajLabel.setText("CPF");
 
-        CPFDoSacadoAvalistajTextField.setText("222.222.222-22");
-        CPFDoSacadoAvalistajTextField.setToolTipText("Digite");
-
         enderecoDoSacadoAvalistaJPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Endereço"));
 
         UFDoSacadoAvalistajLabel.setText("UF");
@@ -505,9 +509,6 @@ public class Interface extends javax.swing.JFrame {
         localidadeDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         CEPDoSacadoAvalistajLabel.setText("CEP");
-
-        CEPDoSacadoAvalistajTextField.setText("59064-120");
-        CEPDoSacadoAvalistajTextField.setToolTipText("Digite");
 
         bairroDoSacadoAvalistajLabel.setText("Bairro");
 
@@ -523,6 +524,12 @@ public class Interface extends javax.swing.JFrame {
 
         numeroDoSacadoAvalistajTextField.setText("321");
         numeroDoSacadoAvalistajTextField.setToolTipText("Digite");
+
+        try {
+            CEPDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#####-###")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout enderecoDoSacadoAvalistaJPanelLayout = new javax.swing.GroupLayout(enderecoDoSacadoAvalistaJPanel);
         enderecoDoSacadoAvalistaJPanel.setLayout(enderecoDoSacadoAvalistaJPanelLayout);
@@ -540,21 +547,21 @@ public class Interface extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(localidadeDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createSequentialGroup()
-                        .addComponent(CEPDoSacadoAvalistajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(CEPDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createSequentialGroup()
-                        .addComponent(bairroDoSacadoAvalistajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bairroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createSequentialGroup()
                         .addComponent(logradouroDoSacadoAvalistajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                         .addComponent(logradouroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createSequentialGroup()
                         .addComponent(numeroDoSacadoAvalistajLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(numeroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(numeroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, enderecoDoSacadoAvalistaJPanelLayout.createSequentialGroup()
+                        .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bairroDoSacadoAvalistajLabel)
+                            .addComponent(CEPDoSacadoAvalistajLabel))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(CEPDoSacadoAvalistajTextField)
+                            .addComponent(bairroDoSacadoAvalistajTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         enderecoDoSacadoAvalistaJPanelLayout.setVerticalGroup(
@@ -563,7 +570,7 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(UFDoSacadoAvalistajLabel)
                     .addComponent(UFDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addGroup(enderecoDoSacadoAvalistaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(localidadeDoSacadoAvalistajLabel)
                     .addComponent(localidadeDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -585,6 +592,12 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(numeroDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
+        try {
+            CPFDoSacadoAvalistajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
         javax.swing.GroupLayout dadosDoSacadoAvalistajPanelLayout = new javax.swing.GroupLayout(dadosDoSacadoAvalistajPanel);
         dadosDoSacadoAvalistajPanel.setLayout(dadosDoSacadoAvalistajPanelLayout);
         dadosDoSacadoAvalistajPanelLayout.setHorizontalGroup(
@@ -595,9 +608,10 @@ public class Interface extends javax.swing.JFrame {
                     .addComponent(nomeDoSacadoAvalistajLabel)
                     .addComponent(CPFDoSacadoAvalistajLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(dadosDoSacadoAvalistajPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(nomeDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CPFDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(dadosDoSacadoAvalistajPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(nomeDoSacadoAvalistajTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 162, Short.MAX_VALUE)
+                    .addComponent(CPFDoSacadoAvalistajTextField))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(dadosDoSacadoAvalistajPanelLayout.createSequentialGroup()
                 .addComponent(enderecoDoSacadoAvalistaJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -608,7 +622,7 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(dadosDoSacadoAvalistajPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nomeDoSacadoAvalistajLabel)
                     .addComponent(nomeDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
                 .addGroup(dadosDoSacadoAvalistajPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CPFDoSacadoAvalistajLabel)
                     .addComponent(CPFDoSacadoAvalistajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -625,8 +639,11 @@ public class Interface extends javax.swing.JFrame {
 
         CNPJjLabel.setText("CNPJ");
 
-        CNPJjTextField.setText("00.000.208/0001-00");
-        CNPJjTextField.setToolTipText("Digite");
+        try {
+            CNPJjTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##.###.###/####-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout DadosDoCedentejPanelLayout = new javax.swing.GroupLayout(DadosDoCedentejPanel);
         DadosDoCedentejPanel.setLayout(DadosDoCedentejPanelLayout);
@@ -635,14 +652,12 @@ public class Interface extends javax.swing.JFrame {
             .addGroup(DadosDoCedentejPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(DadosDoCedentejPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(DadosDoCedentejPanelLayout.createSequentialGroup()
-                        .addComponent(CNPJjLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(CNPJjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(DadosDoCedentejPanelLayout.createSequentialGroup()
-                        .addComponent(nomeDaEmpresajLabel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(nomeDaEmpresajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(nomeDaEmpresajLabel)
+                    .addComponent(CNPJjLabel))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(DadosDoCedentejPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(nomeDaEmpresajTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 152, Short.MAX_VALUE)
+                    .addComponent(CNPJjTextField))
                 .addContainerGap())
         );
         DadosDoCedentejPanelLayout.setVerticalGroup(
@@ -666,9 +681,6 @@ public class Interface extends javax.swing.JFrame {
 
         numeroDaContaDaContaBancariajLabel.setText("Numero da Conta");
 
-        numeroDaContaDaContaBancariajTextField.setText("151515");
-        numeroDaContaDaContaBancariajTextField.setToolTipText("Digite");
-
         tiposDeCarteiraDaContaBancariajLabel.setText("Tipo de Cateira");
 
         tipoDeCarteiraDaContaBancariajTextField.setText("30");
@@ -683,10 +695,17 @@ public class Interface extends javax.swing.JFrame {
 
         numeroAgenciaDaContaBancariajLabel.setText("Número");
 
-        numeroAgenciaDaContaBancariajTextField.setText("020");
-        numeroAgenciaDaContaBancariajTextField.setToolTipText("Digite");
+        try {
+            digitoAgenciajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
-        digitoAgenciajTextField.setText("5");
+        try {
+            numeroAgenciaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout agenciaDaContaBancariaJPanelLayout = new javax.swing.GroupLayout(agenciaDaContaBancariaJPanel);
         agenciaDaContaBancariaJPanel.setLayout(agenciaDaContaBancariaJPanelLayout);
@@ -697,12 +716,12 @@ public class Interface extends javax.swing.JFrame {
                 .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(nomeAgenciaDaContaBancariajLabel)
                     .addComponent(numeroAgenciaDaContaBancariajLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
                 .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(agenciaDaContaBancariaJPanelLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, agenciaDaContaBancariaJPanelLayout.createSequentialGroup()
                         .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(digitoAgenciajTextField))
                     .addComponent(nomeAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
         agenciaDaContaBancariaJPanelLayout.setVerticalGroup(
@@ -714,11 +733,21 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(agenciaDaContaBancariaJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(numeroAgenciaDaContaBancariajLabel)
-                    .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(digitoAgenciajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(numeroAgenciaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        digitoContajTextField.setText("2");
+        try {
+            digitoContajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        try {
+            numeroDaContaDaContaBancariajTextField.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("######")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         javax.swing.GroupLayout dadosDaContaBancariajPanel1Layout = new javax.swing.GroupLayout(dadosDaContaBancariajPanel1);
         dadosDaContaBancariajPanel1.setLayout(dadosDaContaBancariajPanel1Layout);
@@ -735,13 +764,14 @@ public class Interface extends javax.swing.JFrame {
                         .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(tiposDeCarteiraDaContaBancariajLabel)
                             .addComponent(numeroDaContaDaContaBancariajLabel))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
-                        .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(dadosDaContaBancariajPanel1Layout.createSequentialGroup()
-                                .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(3, 3, 3)
-                                .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(tipoDeCarteiraDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 108, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(tipoDeCarteiraDaContaBancariajTextField))
+                        .addGap(2, 2, 2))))
             .addComponent(agenciaDaContaBancariaJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         dadosDaContaBancariajPanel1Layout.setVerticalGroup(
@@ -753,14 +783,15 @@ public class Interface extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(numeroDaContaDaContaBancariajLabel)
-                    .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(digitoContajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(numeroDaContaDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(dadosDaContaBancariajPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tiposDeCarteiraDaContaBancariajLabel)
                     .addComponent(tipoDeCarteiraDaContaBancariajTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(agenciaDaContaBancariaJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(agenciaDaContaBancariaJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         dadosDoBoletojPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Dados do Boleto"));
@@ -819,17 +850,6 @@ public class Interface extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(instrucao1DoBoletoTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(dadosDoBoletojPanelLayout.createSequentialGroup()
-                        .addGroup(dadosDoBoletojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(dadosDoBoletojPanelLayout.createSequentialGroup()
-                                .addComponent(localDePagamentoDoBoletojLabel)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(localDePagamentoDoBoletojTextField))
-                            .addGroup(dadosDoBoletojPanelLayout.createSequentialGroup()
-                                .addComponent(instrucaoAoSacadoDoBoletojLabel)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(instrucaoAoSacadoDoBoletojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(dadosDoBoletojPanelLayout.createSequentialGroup()
                         .addComponent(instrucao2DoBoletojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(instrucao2DoBoletoTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -856,7 +876,16 @@ public class Interface extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dadosDoBoletojPanelLayout.createSequentialGroup()
                         .addComponent(instrucao8DoBoletojLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(instrucao8DoBoletoTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(instrucao8DoBoletoTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(dadosDoBoletojPanelLayout.createSequentialGroup()
+                        .addGroup(dadosDoBoletojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(localDePagamentoDoBoletojLabel)
+                            .addComponent(instrucaoAoSacadoDoBoletojLabel))
+                        .addGap(27, 27, 27)
+                        .addGroup(dadosDoBoletojPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(instrucaoAoSacadoDoBoletojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(localDePagamentoDoBoletojTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         dadosDoBoletojPanelLayout.setVerticalGroup(
@@ -927,17 +956,17 @@ public class Interface extends javax.swing.JFrame {
                 .addGap(10, 10, 10)
                 .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
-                        .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(dadosDoSacadoAvalistajPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
                         .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(dadosDoTitulojPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(DadosDoCedentejPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(dadosDaContaBancariajPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
+                        .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(dadosDoSacadoAvalistajPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 17, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelParaScrolljPanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -950,15 +979,14 @@ public class Interface extends javax.swing.JFrame {
             PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(dadosDoSacadoAvalistajPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(dadosDoSacadoAvalistajPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(dadosDoSacadojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGap(45, 45, 45)
                 .addGroup(PanelParaScrolljPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
-                        .addGap(35, 35, 35)
                         .addComponent(dadosDaContaBancariajPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(dadosDoBoletojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(PanelParaScrolljPanelLayout.createSequentialGroup()
                         .addComponent(dadosDoTitulojPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1001,7 +1029,7 @@ public class Interface extends javax.swing.JFrame {
         Endereco enderecoSac = new Endereco();
         enderecoSac.setUF(UnidadeFederativa.valueOf(UFDoSacadojTextField.getText()));
         enderecoSac.setLocalidade(localidadeDoSacadojTextField.getText());
-        enderecoSac.setCep(new CEP(CEPDoSacadojTextField.getText()));
+        enderecoSac.setCep(new CEP(dataDoDocumentoDoTitulojTextField.getText()));
         enderecoSac.setBairro(bairroDoSacadojTextField.getText());
         enderecoSac.setLogradouro(logradouroDoSacadojTextField.getText());
         enderecoSac.setNumero(numeroDoSacadojTextField.getText());
@@ -1049,7 +1077,7 @@ public class Interface extends javax.swing.JFrame {
         titulo.setValorCobrado(new BigDecimal(Double.parseDouble(valorCobredoDoTitulojTextField.getText())));
         
         MeuPrimeiroBoleto.generateBoleto(titulo);
-        //MeuPrimeiroBoleto.setFlag(true);
+        System.exit(0);
         
     }//GEN-LAST:event_okActionPerformed
 
@@ -1091,15 +1119,15 @@ public class Interface extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel CEPDoSacadoAvalistajLabel;
-    private javax.swing.JTextField CEPDoSacadoAvalistajTextField;
+    private javax.swing.JFormattedTextField CEPDoSacadoAvalistajTextField;
     private javax.swing.JLabel CEPDoSacadojLabel;
-    private javax.swing.JTextField CEPDoSacadojTextField;
+    private javax.swing.JFormattedTextField CEPDoSacadojTextField;
     private javax.swing.JLabel CNPJjLabel;
-    private javax.swing.JTextField CNPJjTextField;
+    private javax.swing.JFormattedTextField CNPJjTextField;
     private javax.swing.JLabel CPFDoSacadoAvalistajLabel;
-    private javax.swing.JTextField CPFDoSacadoAvalistajTextField;
+    private javax.swing.JFormattedTextField CPFDoSacadoAvalistajTextField;
     private javax.swing.JLabel CPFDoSacadojLabel;
-    private javax.swing.JTextField CPFDoSacadojTextField;
+    private javax.swing.JFormattedTextField CPFDoSacadojTextField;
     private javax.swing.JPanel DadosDoCedentejPanel;
     private javax.swing.JLabel LocalidadeDoSacadojLabel;
     private javax.swing.JPanel PanelParaScrolljPanel;
@@ -1126,17 +1154,16 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JPanel dadosDoSacadojPanel;
     private javax.swing.JPanel dadosDoTitulojPanel;
     private javax.swing.JLabel dataDeVencimentoDoTitulojLabel;
-    private javax.swing.JTextField dataDeVencimentoDoTitulojTextField;
+    private javax.swing.JFormattedTextField dataDeVencimentoDoTitulojTextField;
     private javax.swing.JLabel dataDoDocumentoDoTitulojLabel;
-    private javax.swing.JTextField dataDoDocumentoDoTitulojTextField;
+    private javax.swing.JFormattedTextField dataDoDocumentoDoTitulojTextField;
     private javax.swing.JLabel deducaoDoTitulojLabel;
     private javax.swing.JTextField deducaoDoTitulojTextField;
     private javax.swing.JLabel descontoDoTitulojLabel;
     private javax.swing.JTextField descontoDoTitulojTextField;
-    private javax.swing.JTextField digitoAgenciajTextField;
-    private javax.swing.JTextField digitoContajTextField;
-    private javax.swing.JLabel digitoNossoNumeroDoTitulojLabel;
-    private javax.swing.JTextField digitoNossoNumeroDoTitulojTextField;
+    private javax.swing.JFormattedTextField digitoAgenciajTextField;
+    private javax.swing.JFormattedTextField digitoContajTextField;
+    private javax.swing.JFormattedTextField digitoNossoNumeroDoTitulojTextField;
     private javax.swing.JPanel enderecoDoSacadoAvalistaJPanel;
     private javax.swing.JPanel enderecoDoSacadojPanel;
     private javax.swing.JTextField instrucao1DoBoletoTextField;
@@ -1179,9 +1206,9 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JLabel nossoNumeroDoTitulojLabel;
     private javax.swing.JTextField nossoNumeroDoTitulojTextField;
     private javax.swing.JLabel numeroAgenciaDaContaBancariajLabel;
-    private javax.swing.JTextField numeroAgenciaDaContaBancariajTextField;
+    private javax.swing.JFormattedTextField numeroAgenciaDaContaBancariajTextField;
     private javax.swing.JLabel numeroDaContaDaContaBancariajLabel;
-    private javax.swing.JTextField numeroDaContaDaContaBancariajTextField;
+    private javax.swing.JFormattedTextField numeroDaContaDaContaBancariajTextField;
     private javax.swing.JLabel numeroDoDocumentoDoTitulojLabel;
     private javax.swing.JTextField numeroDoDocumentoDoTitulojTextField;
     private javax.swing.JLabel numeroDoSacadoAvalistajLabel;
